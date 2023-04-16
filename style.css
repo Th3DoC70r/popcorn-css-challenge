@@ -3,3 +3,118 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ .topbut {
+    background-color: #805215;
+    text-align: center;
+    color: white;
+    height: 40px;
+    width: 75px;
+    margin-left: 25px;
+    display: inline-block;
+    border: none;
+    height: 50px;
+    width: 100px;
+    font-weight: 900;
+    font-size: 15px;
+}
+header {
+    background-color: #FFDBAA;
+    width: 100%;
+    height: 100px;
+    text-align: left;
+    color: #553100;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    border-bottom: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+body {
+    background-color: #D4A76A;
+} 
+.title-line {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 50px;
+    margin-left: 50px;
+}
+.btn-container {
+    float: right;
+    margin-top: 25px;
+    margin-right: 50px
+}
+.Big-3 {
+    background-color: white;
+    height: 200px;
+    width: 400px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10vw;
+    padding: 8px;
+    box-shadow: 0 0 15px black;
+    position: relative;
+}
+.Big-3-text {
+    text-align: center;
+    background-color: white;
+    display: inline;
+    top: 25px;
+    font-size: 15px;
+    position: relative;
+
+}
+.midbut {
+    color: white;
+    background-color: #805215;
+    text-align: center;
+    width: 90%;
+    height: 75px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    border-width: 2px 2px 2px 2px;
+    border-color: black;
+    border-style: solid;
+}
+.Big-3-cont {
+    margin-left: -2vw;
+    margin-top: 100px;
+}
+.About-but {
+    background-color: #805215;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 98%;
+    height: 75px;
+    font-size: 30px;
+    border-color: black;
+    border-width: 2px 2px 2px 2px;
+    border-style: solid;
+}
+.About-txt{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+    position: relative;
+}
+.About-Us {
+    background-color: white;
+    height: 275px;
+    width: 90%;
+    margin-top: 100px;
+    margin-left: 5vw;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    box-shadow: 0 0 15px black;
+}
